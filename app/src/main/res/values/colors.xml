@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#F0F4F8</color> <!-- Light background color -->
+    <color name="primary_text_color">#333333</color> <!-- Dark text color -->
+    <color name="secondary_text_color">#666666</color> <!-- Grey text color -->
+    <color name="card_background_color">#FFFFFF</color> <!-- White card color -->
+
+
+</resources>

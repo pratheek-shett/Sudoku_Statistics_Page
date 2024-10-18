@@ -1,0 +1,53 @@
+[versions]
+agp = "8.6.0"
+blurviewVersion = "1.6.6"
+donut = "1.8.0"
+donutVersion = "2.2.3"
+firebaseBom = "33.4.0"
+githubGlassmorphism = "1.0.0"
+githubSkeleton = "2.1.0"
+googleServices = "4.4.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+materialVersion = "3"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+mpandroidchart = "v3.1.0"
+cardview = "1.0.0"
+skeleton = "1.5.0"
+skeletonVersion = "1.0.2"
+
+[libraries]
+donut = { module = "app.futured.donut:donut", version.ref = "donut" }
+donut-v223 = { module = "app.futured.donut:donut", version.ref = "donutVersion" }
+eightbitlab-blurview = { module = "com.eightbitlab:blurview", version.ref = "blurviewVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database = { module = "com.google.firebase:firebase-database" }
+github-glassmorphism = { module = "com.github.mohammedsharif:Glassmorphism", version.ref = "githubGlassmorphism" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+hendraanggrian-skeleton = { module = "com.github.hendraanggrian:skeleton", version.ref = "skeletonVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version = "1.9.2" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v3 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+skeleton = { module = "implementation 'com.github.ethanhua:skeleton", version.ref = "skeleton" }
+skeleton-v210 = { module = "com.github.hendraanggrian:skeleton", version.ref = "githubSkeleton" }
+v1-x = { module = "com.github.EudyContreras.Skeleton-Bones:v1.3" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

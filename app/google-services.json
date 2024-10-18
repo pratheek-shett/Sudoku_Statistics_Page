@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462021864192",
+    "project_id": "sudoku-2abc2",
+    "storage_bucket": "sudoku-2abc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462021864192:android:35975a2376628944b6e1e5",
+        "android_client_info": {
+          "package_name": "com.example.sudoku_statistics_page"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyeX7v8QbhrI2HoniWCvNFSgsVBwtTMQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
